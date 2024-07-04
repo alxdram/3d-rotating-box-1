@@ -13,7 +13,7 @@ function LivingRoom() {
 
   useFrame(() => {
     if (roomRef.current) {
-      roomRef.current.rotation.y += 0.05;
+      roomRef.current.rotation.y += 0.03;
     }
   });
 
