@@ -31,14 +31,13 @@ function LivingRoom() {
 
 function MyScene() {
   return (
-    <Canvas
-      gl={{ alpha: true }} // Enable transparency
-      style={{ background: 'transparent' }} // Set background to transparent
-    >
-      <ambientLight />
-      <pointLight position={[10, 10, 10]} />
-      <LivingRoom />
-    </Canvas>
+    <div style={{ width: '100%', height: '100%', background: 'transparent' }}>
+      <Canvas gl={{ alpha: true }} style={{ background: 'transparent' }}>
+        <ambientLight />
+        <pointLight position={[10, 10, 10]} />
+        <LivingRoom />
+      </Canvas>
+    </div>
   );
 }
 
