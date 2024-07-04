@@ -2,7 +2,7 @@
   "name": "my-3d-box",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/alxdram/3d-rotating-box-1",
+  "homepage": "https://github.com/alxdram/my-new-3d-bo",
   "dependencies": {
     "@mui/material": "^5.15.21",
     "@react-three/drei": "^9.108.1",
